@@ -45,7 +45,7 @@ spring.datasource.url = jdbc:mysql://localhost:3306/seu_banco_de_dados?useTimezo
 spring.datasource.username = seu_usuario
 spring.datasource.password = sua_senha
 ```
-##Docker Database
+## Docker Database
 Para executar o Banco de dados, instale o docker na sua maquina e digite o comando:
 
 ```
