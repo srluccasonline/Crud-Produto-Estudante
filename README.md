@@ -45,6 +45,12 @@ spring.datasource.url = jdbc:mysql://localhost:3306/seu_banco_de_dados?useTimezo
 spring.datasource.username = seu_usuario
 spring.datasource.password = sua_senha
 ```
+##Docker Database
+Para executar o Banco de dados, instale o docker na sua maquina e digite o comando:
+
+```
+docker run --name academyspring -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=academyspring -d mysql:5.7
+```
 
 ## Como Executar
 Inicie o aplicativo pela IDE, abra o navegador de sua escolha e acesse: http://localhost:8080
